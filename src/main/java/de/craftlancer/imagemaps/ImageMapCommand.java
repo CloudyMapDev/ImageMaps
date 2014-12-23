@@ -39,8 +39,7 @@ public class ImageMapCommand implements TabExecutor
         if (args.length < 1)
             return false;
         
-        if(args.length >= 2 && args[1].equalsIgnoreCase("reload"))
-        {
+        if(args.length >= 2 && args[1].equalsIgnoreCase("reload")) {
             plugin.reloadImage(args[0]);
             sender.sendMessage("Image " + args[0] + " reloaded!");
             return true;

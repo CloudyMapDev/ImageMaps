@@ -5,7 +5,7 @@ name: ImageMaps
 commands:
     imagemap:
         usage: |
-          /imagemap <file> <fastsend> - then rightlick on a block, fastsend is either true or false
+          /imagemap <file/url> <fastsend> - then rightlick on a block, fastsend is either true or false
           /imagemap <file> reload - reloads the imagefile
         permission: imagemaps.use
 permissions:
